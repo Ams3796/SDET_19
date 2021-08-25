@@ -3,7 +3,7 @@ package genericLibraries;
 public interface Autoconstant {
     
 	public static String DirPath=System.getProperty("user.dir");
-	String propertyfile=DirPath+"../SDET_19/src/test/resources/CommonData.properties";
+	String propertyfile=DirPath+"/src/test/resources/CommonData.properties";
 	String xml=DirPath+"../SDET_19/src/test/resources/CommonDAta.xml";
 	String excel=DirPath+"/SDET_19/src/test/resources/Excel.xlsx";
 	long implicitwait=20;

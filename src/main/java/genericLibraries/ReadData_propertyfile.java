@@ -9,7 +9,7 @@ public class ReadData_propertyfile {
 	public String readProp(String key) throws IOException
 	{
 
-	FileInputStream fis = new FileInputStream("../SDET_19/src/test/resources/commondata.properties");	
+	FileInputStream fis = new FileInputStream(Autoconstant.propertyfile);	
 	Properties prop = new Properties();
 	prop.load(fis);
 	String value = prop.getProperty(key);
