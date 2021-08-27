@@ -3,17 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Opportunity.TC_25">
+      <class name="Opportunity.TC_21">
         <methods>
           <include name="launch_browser"/>
-          <include name="close_browse"/>
           <include name="login_page"/>
           <include name="Opportunity"/>
           <include name="jdbc_report2"/>
           <include name="logout_page"/>
           <include name="jdbc_report"/>
         </methods>
-      </class> <!-- Opportunity.TC_25 -->
+      </class> <!-- Opportunity.TC_21 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

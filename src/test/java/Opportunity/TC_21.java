@@ -2,6 +2,7 @@ package Opportunity;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.objectrepo.CreatingNewOpportunityPage;
@@ -35,18 +36,19 @@ public class TC_21 extends BaseClass {
 		
         OpportunityinfoPage oppinfo=new OpportunityinfoPage(driver);
         oppinfo.verify();
-        if(true)
-        {
-        	System.out.println("Passed");
-        }
-        else
-        {
-        	System.out.println("Failed");
-        	
-        }
-//        Assert.assertEquals(oppinfo.getVerify_text(),"Campaign Information");
-//	    driver.close();	
-//     
+//        if(true)
+//        {
+//        	System.out.println("Passed");
+//        }
+//        else
+//        {
+//        	System.out.println("Failed");
+//        	
+//        }
+        //Assert.assertEquals(false,true);
+        Assert.assertEquals(oppinfo.getVerify_text(),"[ POT99 ] das -  Opportunity Information");
+        driver.close();	
+    
 	}
 
 }

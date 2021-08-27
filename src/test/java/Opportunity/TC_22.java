@@ -1,6 +1,7 @@
 package Opportunity;
 
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.objectrepo.CreatingNewOpportunityPage;
 import com.objectrepo.OpportunityinfoPage;
@@ -30,6 +31,9 @@ public class TC_22 extends BaseClass {
 		        	System.out.println("Failed");
 		        	
 		        }
+		        SoftAssert s=new SoftAssert();
+		        s.assertEquals(oppinfo.getVerify_text(),"Campaign Information");
+		        driver.close();
 		}
 		
 

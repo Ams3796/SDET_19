@@ -19,8 +19,8 @@ public class OpportunityinfoPage {
 		return verify_text;
 	}
 
-	public boolean  verify() {
-		return verify_text.toString().contains("Campaign Information");
+	public boolean verify() {
+		return verify_text.toString().contains("Opportunity Information");
 		
 	}
 }
