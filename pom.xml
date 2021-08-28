@@ -50,6 +50,13 @@
         <version>2.11.0</version>
         </dependency>
         
+      <dependency>
+	  <groupId>com.aventstack</groupId>
+	  <artifactId>extentreports</artifactId>
+    	<version>4.0.1</version>
+     </dependency>
+<!-- Thanks for using https://jar-download.com -->
+      
 		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>

@@ -21,5 +21,6 @@ public interface Autoconstant {
 	String sales8="Negotiation/Review";
 	String sales9="Closed Won";
 	String sales10="Closed Lost";
+	String ExtentReportPath = DirPath+"/reports_19/Report_SDET19";
 
 }
